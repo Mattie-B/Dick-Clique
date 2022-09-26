@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    position: absolute;
+    font-family: "Franklin Gothic Medium", "Goudy Type", "Calibri", sans-serif;
+    font-size: 32px;
+    background-color: #36454F;
+    color: #007FFF;
+}
+
+header,
+footer {
+    height: 80px;
+    width: 150%;
+    line-height: 50px;
+    background-color: #007FFF;
+    color: #FFDF00
+}
+
+header {
+    position: static;
+    border-bottom: 20px solid #007FFF;
+    /*margin-bottom: 20px solid #FFDF00;*/
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+    /*color: #FFDF00;*/
+}
+
+/* Classes */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
