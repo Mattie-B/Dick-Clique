@@ -22,8 +22,7 @@ footer {
 
 header {
     position: static;
-    border-bottom: 20px solid #007FFF;
-    /*margin-bottom: 20px solid #FFDF00;*/
+    border-bottom: 5px solid #FFDF00;
 }
 
 li {
@@ -31,6 +30,16 @@ li {
     padding: 0px 20px;
     text-decoration: none;
     /*color: #FFDF00;*/
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: #FFDF00;
+}
+
+main {
+    position: static;
 }
 
 /* Classes */
