@@ -14,7 +14,7 @@ body {
 header,
 footer {
     height: 80px;
-    width: 150%;
+    width: 100%;
     line-height: 50px;
     background-color: #007FFF;
     color: #FFDF00
@@ -38,8 +38,14 @@ a {
     color: #FFDF00;
 }
 
-main {
-    position: static;
+img {
+    position: relative;
+    width: 100%;
+    image-resolution: ;
+}
+
+p {
+    font-size: 24px;
 }
 
 /* Classes */
