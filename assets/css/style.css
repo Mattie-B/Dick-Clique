@@ -38,14 +38,41 @@ a {
     color: #FFDF00;
 }
 
-img {
+.Nightwing-Pride {
     position: relative;
-    width: 100%;
-    image-resolution: ;
+    width: 800px;
+   /* image-resolution: ;*/
+}
+
+.Grayson-80 {
+    position: relative;
+    width: 800px;
 }
 
 p {
     font-size: 24px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item {
+    width: 200px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
 }
 
 /* Classes */
