@@ -55,6 +55,48 @@ p {
 
 .flexbox-container {
     display: flex;
+    max-width: 1200px;
+    width: 100%;
+    object-position: center;
+    flex-wrap: wrap;
+}
+
+.RnB {
+    position: relative;
+    width: 400px;
+}
+
+.RandB {
+   /* width: 300px;
+   position: relative;
+    min-height: 100px;
+    max-height: 800px;*/
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background: #D21404;*/
+    color: #7A1712;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px)
+}
+
+.image__overlay:hover {
+    opacity: 1;
 }
 
 .flexbox-item {
@@ -63,16 +105,24 @@ p {
     background-color: #dfdfdf;
 }
 
-.flexbox-item-1 {
+.IntoLight {
     min-height: 100px;
+    max-height: 800px;
 }
 
-.flexbox-item-2 {
-    min-height: 200px;
+.DixonRun {
+    min-height: 100px;
+    max-height: 800px;
 }
 
-.flexbox-item-3 {
-    min-height: 300px;
+.Robin-y1 {
+    min-height: 100px;
+    max-height: 800px;
+}
+
+.Nightwing-y1 {
+    min-height: 100px;
+    max-height: 800px;
 }
 
 /* Classes */
