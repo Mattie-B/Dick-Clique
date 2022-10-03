@@ -38,15 +38,24 @@ a {
     color: #FFDF00;
 }
 
+.image-container {
+    display: flex;
+    max-width: 4000px;
+    width: 100%;
+    object-position: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .Nightwing-Pride {
     position: relative;
-    width: 800px;
-   /* image-resolution: ;*/
+    max-width: 800px;
 }
 
 .Grayson-80 {
     position: relative;
     width: 800px;
+    justify-content: center;
 }
 
 p {
@@ -55,21 +64,68 @@ p {
 
 .flexbox-container {
     display: flex;
-    max-width: 1200px;
+    max-width: 4000px;
     width: 100%;
     object-position: center;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .RnB {
     position: relative;
-    width: 400px;
+    max-width: 400px;
 }
 
 .RandB {
-   /* width: 300px;
-   position: relative;
-    min-height: 100px;
+   /*min-height: 100px;
+    max-height: 800px;*/
+    display: block;
+    width: 100%;
+}
+
+.intoTHElight {
+    position: relative;
+    max-width: 400px;
+}
+
+.IntoLight {
+    /*min-height: 100px;
+    max-height: 800px;*/
+    display: block;
+    width: 100%;
+}
+
+.ChuckRun {
+    position: relative;
+    max-width: 400px
+}
+
+.DixonRun {
+    /*min-height: 100px;
+    max-height: 800px;*/
+    display: block;
+    width: 100%;
+}
+
+.Grayson-y1 {
+    position: relative;
+    max-width: 400px;
+}
+
+.Robin-y1 {
+    /*min-height: 100px;
+    max-height: 800px;*/
+    display: block;
+    width: 100%;
+}
+
+.Grayson-y2 {
+    position: relative;
+    max-width: 400px;
+}
+
+.Nightwing-y1 {
+    /*min-height: 100px;
     max-height: 800px;*/
     display: block;
     width: 100%;
@@ -82,7 +138,7 @@ p {
     width: 100%;
     height: 100%;
     /*background: #D21404;*/
-    color: #7A1712;
+    color: #007FFF;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,26 +159,6 @@ p {
     width: 200px;
     border: 3px solid #333;
     background-color: #dfdfdf;
-}
-
-.IntoLight {
-    min-height: 100px;
-    max-height: 800px;
-}
-
-.DixonRun {
-    min-height: 100px;
-    max-height: 800px;
-}
-
-.Robin-y1 {
-    min-height: 100px;
-    max-height: 800px;
-}
-
-.Nightwing-y1 {
-    min-height: 100px;
-    max-height: 800px;
 }
 
 /* Classes */
